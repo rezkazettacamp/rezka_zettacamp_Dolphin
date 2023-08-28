@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <div div style="display: flex; justify-content: center;">
+        <table>
+            <tr>
+                <td>
+                    <img src="../Assets/logo.png" alt="Logo" width="80px">
+                </td>
+                <td width="10px"></td>
+                <td>
+                    <h1>Neos Famous Music</h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <table>
+            <tr>
+                <td>
+                    <h2>Register Data</h2>
+                </td>
+                <td style="padding-left: 10px;">
+                    <img src="../Assets/user.png" alt="User" width="40px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h4 style="display: flex; justify-content: center;">Please fill in the data below</h4>
+    <div style="display: flex; justify-content: center; padding-bottom: 20px;">
+        <table cellpadding="10px">
+            <form>
+                <tr>
+                    <td>Full Name <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="text" placeholder="First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <input type="text" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="radio" name="gender"/>Male
+                        <input type="radio" name="gender"/>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="tel" placeholder="08xxxxxxxxxx" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Your Photo<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="file" required>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>&colon;</td>
+                    <td>
+                        <select name="sosmed">
+                            <option value="Instagram">Instagram</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twitter">Twitter</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <input type="url" placeholder="ex. https://">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Motivation</td>
+                    <td>&colon;</td>
+                    <td>
+                        <textarea cols="21" rows="3" placeholder="About me.."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type of Account <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="radio" name="account"/>Personal Class
+                        <input type="radio" name="account"/>Free Trial Class
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <br>
+                        <center>
+                            <a href="profile.html"><img src="../Assets/submitbutton.png" alt="Submit Button"
+                                    width="90px"></a>
+                        </center>
+                    </td>
+            </form>
+        </table>
+    </div>
+    <footer style="color: gray; font-size: small; position: fixed; bottom: 0; left: 0; right: 0;">
+        &copy;Copyright.ZettaCamp:Dolphin.2023.HTML.Rezka.Ainurrahman
+    </footer>
+</body>
+
+</html>
