@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo"
+                style="border: 3px solid black; background-color: white; padding: 8px; width: 320px;">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="home">
+            <a id="homeid" href="index.html">Home</a>
+        </div>
+        <div class="shoppinglist">
+            <a href="shopping-list.html">Shopping List</a>
+        </div>
+        <div class="about">
+            <a href="about-me.html">About</a>
+        </div>
+        <div class="contact">
+            <a href="contact-me.html">Contact</a>
+        </div>
+        <div class="setting">
+            <a href=""><img src="assets/setting.png" alt="setting" style="width: 32px;"></a>
+        </div>
+    </div>
+    <h1 style="display: flex; justify-content: center; margin: 2rem auto 2rem;">Contact</h1>
+    <p style="display: flex; justify-content: center;">Please fill in the data below <span
+            style="color: red;">&ast;</span></p>
+    <div style="display: flex; justify-content: center; padding-bottom: 20px;">
+        <table cellpadding="10px">
+            <form onsubmit="alert('Submit Data Successful &excl;')">
+                <tr>
+                    <td>Full Name<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="text" placeholder="First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <input type="text" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="radio" name="gender" value="laki" />Male
+                        <input type="radio" name="gender" value="laki" />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="number" min="18" max="999" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone<span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="tel" placeholder="08xxxxxxxxxx" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail <span style="color: red;">&ast;</span></td>
+                    <td>&colon;</td>
+                    <td>
+                        <input type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>&colon;</td>
+                    <td>
+                        <select name="sosmed">
+                            <option value="Instagram">Instagram</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twitter">Twitter</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <input type="url" placeholder="ex. https://">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comment</td>
+                    <td>&colon;</td>
+                    <td>
+                        <textarea cols="21" rows="3" placeholder="About me.."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <br>
+                        <center>
+                            <button type="submit">Submit</button>
+                        </center>
+                    </td>
+            </form>
+        </table>
+    </div>
+    <footer class="bottomnav">
+        <div class="trust">
+            <div class="trustdetail">
+                <img src="assets/truck.png" alt="truck">
+                <div class="trustdescription">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping throughout Indonesia for all orders without a minimum amount.</p>
+                </div>
+            </div>
+            <div class="trustdetail">
+                <img src="assets/safeshopping.png" alt="safeshopping">
+                <div class="trustdescription">
+                    <h3>Safe Online Shopping</h3>
+                    <p>Shop online easily and comfortably with our trusted payment system.</p>
+                </div>
+            </div>
+            <div class="trustdetail">
+                <img src="assets/tax.png" alt="tax">
+                <div class="trustdescription">
+                    <h3>Including Tax</h3>
+                    <p>All prices include tax so you can shop our extensive catalog worry-free.</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyrighttext">
+                <p> &copy; Copyright.ZettaCamp:Dolphin.2023.HTML.Rezka.Ainurrahman</p>
+            </div>
+            <div class="copyrightimg">
+                <a href="https://www.instagram.com/rezka_a.r/" target=_blank>
+                    <img src="assets/instagram.png" alt="Instagram Logo" height="40px">
+                </a>
+                <a href="https://id.linkedin.com/in/rezka-ainurrahman-993057204" target="_blank">
+                    <img src="assets/linkedin.png" alt="LinkedIn Logo" height="40px">
+                </a>
+            </div>
+            <div class="upbutton">
+                <a href="#">
+                    <img src="assets/upbutton.jpg" alt="upbutton" style="border-radius: 50%" height="60px">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+.topnav {
+    padding: 1rem;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0%;
+    position: sticky;
+}
+.websitedescription {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+
+}
+.search input {
+    width: 500px;
+    height: 40px;
+}
+.container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.card {
+    width: 270px;
+    /* border: 1px solid rgb(48, 48, 48); */
+    margin: 16px;
+    /* box-shadow: black 0px 1px 5px 0px; */
+}
+.card img {
+    width: 100%;
+}
+.carddescription {
+    padding: 10px;
+}
+.card h3 {
+    margin-top: auto;
+}
+.card p {
+    font-size: 0.9rem;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+button.addcart a:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.addcart {
+    transition: all 0.2s ease;
+    
+}
+.additem {
+    width: 50%;
+    transition: all 0.2s ease;
+    margin: 2rem auto 2rem;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+}
+.trust {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top: 2rem;
+    background-color: grey;
+}
+.trustdetail {
+    width: 280px;
+    text-align: center;
+    /* border: 1px solid rgb(48, 48, 48); */
+    margin: 16px;
+    /* box-shadow: black 0px 1px 5px 0px; */
+}
+.trust img {
+    width: 100px;
+    border-radius: 50%;
+}
+/* .trustdescription {
+    padding: 0px;
+    margin: 10px;
+} */
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 16px;
+    background-color: black;
+    color: white;
+}
+.copyrightimg {
+    display: flex;
+    align-self: center;
+    gap: 2rem;
+}
+.upbutton {
+    display: flex;
+    justify-self: flex-end;
+}
+.containeradditems {
+    width: 85%;
+    height: 500px;
+    /* border: 1px solid black; */
+    padding-bottom: 5rem;
+    margin: 1rem auto 1rem;
+    overflow: scroll;
+    text-align: center;
+}
+.cardlist {
+    width: 99.5%;
+    height: 15rem;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+.cardlist img {
+    height: 100%;
+}
+.aboutneosfamous {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem 5rem;
+}
+.aboutneosfamous img {
+    width: 300px;
+    align-self: center;
+}
