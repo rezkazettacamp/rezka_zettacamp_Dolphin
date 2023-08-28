@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Tables</title>
+    <style>
+        .headling {
+            text-align: center;
+        }
+        .layout {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 50px;
+        }
+        .table1 .tb1 {
+            background-color: green;
+        }
+        .table2 .tb2 {
+            background-color: red;
+        }
+        .table3 .tb3 {
+            background-color: blue;
+        }
+        tr,
+        td,
+        th {
+            border: solid black 1px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="headling">Student Hobby</h2>
+    <div class="layout">
+        <table class="table1">
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Hobby</th>
+            </tr>
+            <tr class="tb1">
+                <td>1</td>
+                <td>Alvito</td>
+                <td>17</td>
+                <td>Playing Musical Instrument</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Flora</td>
+                <td>17</td>
+                <td>Dancing</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Viona</td>
+                <td>16</td>
+                <td>Singing</td>
+            </tr>
+        </table>
+    </div>
+    <h2 class="headling">Student Favorite Movie</h2>
+    <div class="layout">
+        <table class="table2">
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Movie</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alvito</td>
+                <td>Train to Busan</td>
+                <td>2016</td>
+            </tr>
+            <tr class="tb2">
+                <td>2</td>
+                <td>Flora</td>
+                <td>Titanic</td>
+                <td>1997</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Viona</td>
+                <td>Dilan</td>
+                <td>2018</td>
+            </tr>
+        </table>
+    </div>
+    <h2 class="headling">Student Favorite Song</h2>
+    <div class="layout">
+        <table class="table3">
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Song</th>
+                <th>Artist</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alvito</td>
+                <td>All The Small Things</td>
+                <td>Blink-182</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Flora</td>
+                <td>Tak Segampang Itu</td>
+                <td>Anggi Marito</td>
+            </tr>
+            <tr class="tb3">
+                <td>3</td>
+                <td>Viona</td>
+                <td>Holiday</td>
+                <td>Green Day</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

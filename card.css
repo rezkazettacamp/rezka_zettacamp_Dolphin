@@ -1,0 +1,40 @@
+.headling {
+    text-align: center;
+}
+.outline {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    gap: 10px;
+    /* border: solid black; */
+}
+.box1 {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    padding: 10px 20px 10px 20px;
+}
+.box2 {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px ;
+    padding: 10px 20px 10px 20px;
+}
+.box3 {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    padding: 10px 20px 10px 20px;
+}
+.box4 {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    padding: 10px 20px 10px 20px;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
